@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade — Otto</title>
+  <meta name="description" content="O que o Otto guarda, para quê, com quem compartilha e como apagar.">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="brand">
+    <a href="./"><img src="icon.png" alt="Otto"></a>
+    <h1>Política de Privacidade</h1>
+  </header>
+
+  <p class="updated">Última atualização: 9 de novembro de 2026</p>
+
+  <p>Esta política explica quais dados o aplicativo Otto ("Otto", "nós") coleta, para que usa, com quem compartilha e como você pode apagá-los. O Otto é um projeto pessoal, sem anúncios e sem venda de dados.</p>
+
+  <h2>1. Login com Google</h2>
+  <p>Quando você entra com o Google, recebemos apenas o seu <strong>nome</strong>, o seu <strong>endereço de e-mail</strong> e a sua <strong>foto de perfil</strong> (escopos <code>openid</code>, <code>email</code> e <code>profile</code>). Eles servem só para criar a sua conta e identificar você no app. O Otto não acessa o seu Gmail, o seu Google Drive, os seus contatos nem a API do Google Agenda.</p>
+
+  <h2>2. O que fica guardado na sua conta</h2>
+  <ul>
+    <li><strong>Conversas com o Otto:</strong> o que você escreve, as respostas e o resultado das ações (por exemplo, o título e o horário de um evento criado pelo chat).</li>
+    <li><strong>Tarefas e listas</strong> que você cria.</li>
+    <li><strong>Memórias:</strong> fatos curtos que você pede para o Otto lembrar. Dá para desligar em Perfil.</li>
+    <li><strong>Avisos automáticos</strong> (o que pediu para vigiar) e o resumo da última checagem.</li>
+    <li><strong>Resumo semanal:</strong> um texto e contagens (horas e número de eventos) da semana.</li>
+    <li><strong>Preferências</strong> do app e o identificador de notificação do aparelho.</li>
+    <li><strong>As suas chaves de API</strong> do Gemini e, se você cadastrar, do Tavily. Elas ficam só no servidor e nunca voltam para o aplicativo.</li>
+  </ul>
+  <p>Esses dados ficam no Supabase, o nosso provedor de banco de dados, protegidos de forma que cada conta só enxerga os próprios registros.</p>
+
+  <h2>3. O que fica só no seu celular</h2>
+  <ul>
+    <li><strong>A sua agenda.</strong> Os eventos são lidos e gravados no calendário do próprio aparelho, com a sua permissão. O Otto não mantém uma cópia da agenda no servidor. Quando você pergunta algo sobre a agenda, os eventos necessários para responder são enviados à IA naquela conversa.</li>
+    <li><strong>Localização</strong>, se você ligar em Perfil &gt; Integrações. Ela é usada para considerar onde você está numa conversa e para buscar o clima do resumo da manhã.</li>
+  </ul>
+
+  <h2>4. Com quem os dados são compartilhados</h2>
+  <p>Só com os serviços necessários para o app funcionar:</p>
+  <ul>
+    <li><strong>Google Gemini:</strong> recebe as mensagens, fotos, áudios e arquivos que você manda no chat, para gerar a resposta. O uso é feito com a <strong>sua</strong> chave de API e segue os <a href="https://ai.google.dev/gemini-api/terms">termos da API do Gemini</a>. No plano gratuito, o Google pode usar o conteúdo para melhorar os produtos dele. Fotos, áudios e arquivos não são guardados pelo Otto depois da resposta.</li>
+    <li><strong>Tavily:</strong> recebe o texto das buscas na web e dos avisos automáticos, com a sua chave, se você cadastrar uma.</li>
+    <li><strong>Open-Meteo:</strong> recebe a sua localização aproximada para trazer a previsão do tempo, se a localização estiver ligada.</li>
+    <li><strong>Supabase:</strong> hospeda a conta e os dados descritos no item 2.</li>
+    <li><strong>Expo e Firebase Cloud Messaging:</strong> entregam as notificações no seu celular.</li>
+  </ul>
+  <p>Não vendemos, alugamos nem usamos os seus dados para publicidade. Os dados de usuário do Google são usados apenas para oferecer as funções do app.</p>
+
+  <h2>5. Por quanto tempo guardamos</h2>
+  <p>Enquanto a sua conta existir. Conversas podem ser apagadas a qualquer momento pelo próprio app (em Bate-papos), assim como tarefas, memórias e avisos.</p>
+
+  <h2>6. Como apagar a sua conta</h2>
+  <p>Mande um e-mail para <a href="mailto:morosettitop@gmail.com">morosettitop@gmail.com</a> a partir do endereço da sua conta pedindo a exclusão. A conta e todos os dados do item 2 são apagados em até 30 dias. Os eventos do calendário continuam no seu celular, porque são seus. Você também pode revogar o acesso do Otto à sua conta Google em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>7. Seus direitos</h2>
+  <p>Pela Lei Geral de Proteção de Dados (LGPD), você pode pedir acesso, correção, cópia ou exclusão dos seus dados pelo e-mail acima.</p>
+
+  <h2>8. Crianças</h2>
+  <p>O Otto não é destinado a menores de 13 anos.</p>
+
+  <h2>9. Mudanças</h2>
+  <p>Se esta política mudar, a data no topo é atualizada e a nova versão vale a partir da publicação nesta página.</p>
+
+  <h2>Contato</h2>
+  <p><a href="mailto:morosettitop@gmail.com">morosettitop@gmail.com</a></p>
+
+  <footer>
+    <a href="./">Início</a>
+  </footer>
+</main>
+</body>
+</html>
